@@ -1,0 +1,84 @@
+
+.background{
+    background-image: url('./img/LandingPage.jpg');
+    margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;   
+  /* display: flex;
+  justify-content: flex-end;
+  align-items: flex-end; */
+ 
+}
+.landing{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: white;
+}
+
+.flexTitle{
+  display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+padding-left: 15px;
+}
+
+.containerBtn{
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+padding-right: 20px;
+height: 430px;
+}
+
+.shadow__btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    
+  }
+  
+  .shadow__btn {
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+  }
+  
+  .shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+  }
+
+  @media (max-width: 600px) {
+    .flexTitle{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .landing{
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: 4px;
+      color: white;
+  }
+
+  .containerBtn{
+display: flex;
+justify-content: center;
+align-items: flex-end;
+height: 26.875em;
+}
+  }

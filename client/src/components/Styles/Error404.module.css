@@ -1,0 +1,17 @@
+/* .background{
+    display: flex;
+    flex-direction: column
+} */
+
+.title{
+    font-size: 3.75rem;
+    font-weight: 800;
+    letter-spacing: 4px;
+  
+}
+
+.subtitle{
+    font-size: 1.875rem;
+    font-weight: 800;
+    letter-spacing: 4px;
+}

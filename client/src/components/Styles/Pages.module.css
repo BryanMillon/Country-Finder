@@ -1,0 +1,23 @@
+.pages{
+    margin-bottom: 60px;
+}
+
+.btn{
+    margin: 15px 5px 0 5px;
+    background-color: #DFF6FF;
+    border-radius: 5px;
+    width: 30px;
+}
+.btn:hover{
+    background-color: #256D85;
+    color: white;
+    transform: scale(1.2); 
+    transition: transform .4s; 
+}
+
+.btn2{
+    margin: 15px 5px 0 5px;
+    background-color: #256D85;
+    border-radius: 5px;
+    width: 30px;
+}

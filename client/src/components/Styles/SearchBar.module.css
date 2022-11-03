@@ -1,0 +1,33 @@
+
+.btn{
+    
+  background-color: transparent;
+  filter:alpha(opacity=70);
+-moz-opacity:.70;opacity:.70;
+  letter-spacing: 0.5px;
+  font-style: italic;
+  font-size: 1.5rem;
+  color:white;
+  width: 40px;
+  height: 30px;
+ border: 0;
+ margin-right: 5px;
+}
+
+.btn:hover{
+    transform: scale(1.3); 
+    transition: transform .4s; 
+    
+}
+
+.input{
+    background-color: transparent;
+  filter:alpha(opacity=70);
+-moz-opacity:.70;opacity:.70;
+  letter-spacing: 0.5px;
+  font-style: italic;
+  font-size: medium;
+  border-radius: 5px;
+  height: 23px;
+  color: white;
+}
