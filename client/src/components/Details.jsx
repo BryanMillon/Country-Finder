@@ -54,7 +54,7 @@ export default function Detail(props){
             <Loader/>
             )}
           
-          <div>
+          <div className={styles.bgBtn}>
             <Link to="/activities">
               <button className={styles.shadow__btn}>Create New Activity</button>
             </Link>

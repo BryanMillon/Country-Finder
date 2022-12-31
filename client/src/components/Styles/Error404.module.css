@@ -1,17 +1,56 @@
-/* .background{
-    display: flex;
-    flex-direction: column
-} */
 
-.title{
-    font-size: 3.75rem;
-    font-weight: 800;
+.bg{
+    background: linear-gradient(#06283D, #256D85);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow-y: scroll;
+   height: 100vh;
+}
+
+.central_body{
+    margin-top: 5rem;
+    margin-bottom: 1.5625rem;
+}
+
+.shadow__btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
     letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    
+  }
   
-}
+  .shadow__btn {
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+  }
+  
+  .shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+  }
 
-.subtitle{
-    font-size: 1.875rem;
-    font-weight: 800;
-    letter-spacing: 4px;
-}
+  .objects{
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .object_moon{
+    position: relative;
+    bottom: 80px;
+  }
+
+  .object_astronaut{
+    position: relative;
+    right: 45px;
+    bottom: 30px;
+  }

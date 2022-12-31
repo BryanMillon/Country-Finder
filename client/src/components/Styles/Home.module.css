@@ -15,14 +15,11 @@
 
  .background{
    background: linear-gradient(#06283D, #256D85);
-   background-attachment: fixed;
-   margin: 0;
-   padding: 0;
-   
-   overflow: hidden;
    background-size: cover;
-   background-position: center;   
-
+   background-attachment: fixed;
+   background-position: center;
+   overflow-y: scroll;
+  height: 100vh;
  }
 
  .title{
@@ -82,6 +79,43 @@ width: 215px;
    font-weight: 500;
    letter-spacing: 4px;
    padding-right: 12px;
+ }
+
+ @media (max-width: 830px){
+.title{
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 4px;
+margin-right: 65px;
+}
+
+.wrapper {
+  display: grid; 
+ grid-template-columns: repeat(2, 1fr);
+margin:  0 auto;
+
+}
+
+.reload{
+  margin: 10px 20px 30px 0;
+font-size: 12px;
+width: 215px;
+}
+ }
+
+ @media (max-width: 730px){
+  .title{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 4px;
+
+  }
+  .reload{
+   
+  font-size: 10px;
+  width: 215px;
+  
+   }
  }
 
  @media (max-width: 600px) {

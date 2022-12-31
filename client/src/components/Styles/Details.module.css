@@ -1,6 +1,10 @@
 .background{
     background: linear-gradient(#06283D, #256D85);
-  
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow-y: scroll;
+  height: 100vh;
 }
 
 .name{
@@ -22,6 +26,11 @@
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 2px;
+}
+
+.bgBtn{
+ 
+  margin: 20px 0 20px 0;
 }
 
 .shadow__btn {
