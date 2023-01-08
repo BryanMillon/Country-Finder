@@ -66,3 +66,16 @@ DB_HOST=localhost
 Replace yourPostgresUsername and yourPostgresPassword with your own credentials to connect to Postgres. This file will be ignored when uploading to GitHub, as it contains sensitive information (your credentials).
 
 Additionally, you will need to create a database called "countries" from psql. These steps are necessary if you want to test the project.
+
+
+IMPORTANT: You should have the latest stable version of Node and NPM installed. Make sure you have these versions in order to correctly install the necessary dependencies to run the project.
+
+Currently, the necessary versions are:
+
+Node: 12.18.3 or higher
+NPM: 6.14.16 or higher
+
+To check which version you have installed:
+
+node -v
+npm -v
