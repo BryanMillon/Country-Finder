@@ -1,7 +1,9 @@
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
 # Individual Project 
-
+<p align="left">
+  <img height="200" src="./countries.png" />
+</p>
 Welcome to my first full-stack project! This app was built using React, Redux, Node, and Sequelize. The goals of this project were to consolidate and apply concepts learned in the bootcamp Henry, learn best practices, and practice my Git workflow.
 
 ## Technologies Used
