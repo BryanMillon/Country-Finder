@@ -1,7 +1,9 @@
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
 # Individual Project 
-
+<p align="left">
+  <img height="200" src="./countries.png" />
+</p>
 Welcome to my first full-stack project! This app was built using React, Redux, Node, and Sequelize. The goals of this project were to consolidate and apply concepts learned in the bootcamp Henry, learn best practices, and practice my Git workflow.
 
 ## Technologies Used
@@ -66,3 +68,16 @@ DB_HOST=localhost
 Replace yourPostgresUsername and yourPostgresPassword with your own credentials to connect to Postgres. This file will be ignored when uploading to GitHub, as it contains sensitive information (your credentials).
 
 Additionally, you will need to create a database called "countries" from psql. These steps are necessary if you want to test the project.
+
+
+IMPORTANT: You should have the latest stable version of Node and NPM installed. Make sure you have these versions in order to correctly install the necessary dependencies to run the project.
+
+Currently, the necessary versions are:
+
+Node: 12.18.3 or higher
+NPM: 6.14.16 or higher
+
+To check which version you have installed:
+
+node -v
+npm -v
