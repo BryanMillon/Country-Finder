@@ -126,6 +126,54 @@ width: 215px;
  
   }
 
+  @media (max-width: 400px) {
+    .wrapper {
+      display: grid; 
+     grid-template-columns: repeat(1, 1fr);
+    margin:  0 auto;
+    padding: 0px;
+   
+    }
+
+    .containerCard{
+    
+      width:194px;
+      height:254px;
+   }
+
+   .background{
+    background: linear-gradient(#06283D, #256D85);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow-y: scroll;
+   height: 100vh;
+  }
+
+    .title{
+      
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 4px;
+      margin: 10px;
+  
+    }
+
+    .reload{
+    font-size: 8px;
+   width: 100px;
+   margin: 0 ;
+    }
+
+    .link{
+     
+      font-size: 13px;
+     
+      padding-right: 0px;
+    }
+  }
+
+
   .containerCard{
     width:194px;
     height:254px;

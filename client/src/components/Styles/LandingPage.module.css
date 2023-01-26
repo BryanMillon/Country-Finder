@@ -28,11 +28,12 @@ padding-left: 15px;
 }
 
 .containerBtn{
-display: flex;
-justify-content: flex-end;
-align-items: flex-end;
-padding-right: 20px;
-height: 550px;
+  position: fixed;
+  
+  right: 10px;
+  bottom: 20px;
+
+
 }
 
 .shadow__btn {
@@ -46,6 +47,10 @@ height: 550px;
     text-transform: uppercase;
     transition: 0.5s;
     transition-property: box-shadow;
+    
+     
+  
+    
     
   }
   
@@ -61,24 +66,26 @@ height: 550px;
                 0 0 100px rgb(0,140,255);
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 860px) {
     .flexTitle{
       display: flex;
     justify-content: center;
     align-items: center;
     }
 
-    .landing{
-      font-size: 28px;
-      font-weight: 700;
-      letter-spacing: 4px;
-      color: white;
+  .containerBtn{
+    position: fixed;
+    bottom: 20px;
+  left: 0;
+  right: 0;
+}
   }
 
-  .containerBtn{
-display: flex;
-justify-content: center;
-align-items: flex-end;
-height: 26.875em;
-}
+  @media (max-width: 375px) {
+    .landing{
+      font-size: 20px;
+     
+  }
+  
+
   }
