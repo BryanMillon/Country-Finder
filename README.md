@@ -5,7 +5,7 @@
   <img height="200" src="./countries.png" />
 </p>
 
-##Deploy ---------->https://country-finder-app-cr.vercel.app/ 
+## Deploy ---------->https://country-finder-app-cr.vercel.app/ 
 
 Welcome to my first full-stack project! This app was built using React, Redux, Node, and Sequelize. The goals of this project were to consolidate and apply concepts learned in the bootcamp Henry, learn best practices, and practice my Git workflow.
 
