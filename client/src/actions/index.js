@@ -6,7 +6,7 @@ import axios from 'axios'
 
 export function getCountries(){
     return async function(dispatch){
-        let json = await axios.get("http://localhost:3001/countries")
+        let json = await axios.get("https://country-finder-back-end.vercel.app/countries")
         return dispatch({
             type: 'GET_COUNTRIES',
             payload: json.data
@@ -16,7 +16,7 @@ export function getCountries(){
 //===============FETCH==============================
 // export function getCountries(){
 //   return function(dispatch){
-//       let json = fetch("http://localhost:3001/countries")
+//       let json = fetch("https://country-finder-back-end.vercel.app/countries")
 //       .then((res)=>res.json(json))
 //       .then((data)=> dispatch({
 //           type: 'GET_COUNTRIES',
@@ -27,7 +27,7 @@ export function getCountries(){
 export function getNameCountries(name){
     return async function(dispatch){
         try {
-            let json = await axios.get(`http://localhost:3001/countries?name=${name}`);
+            let json = await axios.get(`https://country-finder-back-end.vercel.app/countries?name=${name}`);
             return dispatch({
                 type: 'GET_NAME_COUNTRIES',
                 payload: json.data
@@ -42,7 +42,7 @@ export function getNameCountries(name){
 // export function getNameCountries(name){
 //   return function(dispatch){
 //       try {
-//           let json = fetch(`http://localhost:3001/countries?name=${name}`)
+//           let json = fetch(`https://country-finder-back-end.vercel.app/countries?name=${name}`)
 //           .then((res)=>res.json(json))
 //           .then((data) => dispatch({
 //               type: 'GET_NAME_COUNTRIES',
@@ -56,7 +56,7 @@ export function getNameCountries(name){
 
 export function getAllActivities() {
     return async function (dispatch) {
-      let json = await axios.get("http://localhost:3001/activities");
+      let json = await axios.get("https://country-finder-back-end.vercel.app/activities");
       return dispatch({
         type:"GET_ACTIVITIES",
         payload: json.data,
@@ -67,7 +67,7 @@ export function getAllActivities() {
 
   export function postActivity(payload) {
     return async function (dispatch) {
-      const activity = axios.post("http://localhost:3001/activities", payload);
+      const activity = axios.post("https://country-finder-back-end.vercel.app/activities", payload);
       return dispatch({
         type: "POST_ACTIVITY",
         payload: activity,
@@ -120,7 +120,7 @@ export function orderByPopulation(payload){
 export function getDetail(id){
     return async function(dispatch){
         try {
-            let json = await axios.get(`http://localhost:3001/countries/${id}`)
+            let json = await axios.get(`https://country-finder-back-end.vercel.app/countries/${id}`)
             return dispatch({
                 type: "GET_DETAILS",
                 payload: json.data
